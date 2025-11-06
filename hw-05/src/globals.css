@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  background: #0C0417;
+  color: #1ED760;
+}
+
+.wrapper {
+  padding: 3.5rem 2.188rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.iconsBlock {
+  margin-top: 2rem;
+  padding: 2.5rem 3.563rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  border: 3px solid #1ED760;
+  border-radius: 4.063rem;
+  max-width: 27.875rem;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 4rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  .iconsBlock {
+    padding: 1.5rem 2rem;
+    gap: 0.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .logo {
+    width: 90px;
+  }
+}
