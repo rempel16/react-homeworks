@@ -1,0 +1,121 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #01071a;
+  color: #fff;
+  width: 20rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  margin: 6rem;
+}
+
+.left {
+  display: grid;
+  gap: 16px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+  display: grid;
+  gap: 6px;
+}
+
+.item {
+  font-size: 1rem;
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.form {
+  display: grid;
+  gap: 1rem;
+  max-width: 16rem;
+}
+
+.input {
+  height: 3rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.input::placeholder {
+  color: #bbb;
+}
+
+.button {
+  width: 100%;
+  max-width: 400px;
+  height: 48px;
+  background: rgb(27, 27, 27);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+      max-width: 16rem;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  margin-top: 4rem;
+}
+
+.socialTitle {
+  margin: 0 0 12px 0;
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.socialLink {
+  display: inline-flex;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+@media (max-width: 860px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}

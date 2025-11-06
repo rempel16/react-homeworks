@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #09092f;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.btn {
+  background: #d7651e;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 20px 0;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #a91a15;
+  color: #fff;
+}
+
+.text-block {
+  margin-top: 20px;
+  padding: 1rem 2rem;
+  background: #1c1f2b;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.text-block h2 {
+  margin-bottom: 10px;
+}

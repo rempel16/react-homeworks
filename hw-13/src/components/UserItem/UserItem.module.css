@@ -1,0 +1,7 @@
+.UserItem {
+  border-bottom: 0.5px solid #a9a7a7;
+  width: 410px;
+  padding: 8px;
+  color: #3a3a3a;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-left: 2em;
+  background-color: rgb(31, 45, 173);
+}
+
+.container {
+  background-color: rgb(28, 22, 128);
+  border: 1px solid rgb(255, 255, 255);
+  padding-bottom: 1.5em;
+  padding-left: 1.5em;
+  color: aliceblue;
+}
